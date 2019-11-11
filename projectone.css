@@ -128,8 +128,7 @@ padding-bottom: 50px;
   .cards:hover {
    opacity: 1;
    background-color:  pink;
-   
-
+  
  
   }
 
@@ -150,7 +149,6 @@ padding-bottom: 50px;
     font-family: 'Roboto-light', sans-serif;
     font-size: 20px;
 
-  
    }
 
    .returnHome {
@@ -163,16 +161,16 @@ padding-bottom: 50px;
     color: #333;
   }
    .returnHome button {
-    background-color: #C7CEEA;
-    border: 3px solid #693f7e
+    background-color:  pink;
     padding: .5rem;
     border-radius: 5px;
     width: 150px;
     text-align: center;
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
-  text-align: center;
-  padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 2px 2px 0 rgba(19, 25, 27, 0.1);
 
     }
     
