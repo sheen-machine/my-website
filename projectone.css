@@ -132,12 +132,21 @@
   }
 
 
-  .footer {
-    grid-area: ft;
+  footer { 
+    grid-column: 1 / 5;
+    grid-row: 5 / 6;
+    text-align: center;
+    padding: 20px;
+    
+ }
+
+ footer a {
+ 
+    text-decoration: none;
     color: #333;
     font-family: 'Roboto-light', sans-serif;
     font-size: 20px;
-    padding: 10px;
-  }
 
-
+    
+  
+   }
