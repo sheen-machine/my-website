@@ -213,7 +213,7 @@ color: #333;
 }
 
 .extra button {
-background-color: white;
+background-color: antiquewhite;
 border: 3px solid #693f7e
 color: #333;
 padding: .5rem;
@@ -228,7 +228,7 @@ width: 120px;
 
 .extra a {
   color: #333;
-  font-family: 'Roboto-light', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   text-align: center;
   padding: 10px;
@@ -245,10 +245,11 @@ width: 120px;
 
 
    footer { 
+     border-top: 2px #333 solid;
       grid-column: 1 / 5;
       grid-row: 5 / 6;
       text-align: center;
-      padding: 20px;
+      padding: 10px;
       
    }
 

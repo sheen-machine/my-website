@@ -23,7 +23,7 @@
 
 
 .container {
-  background-color: #f2f2f2;
+  background-color: antiquewhite;
   text-align: center;
 }
 
@@ -55,24 +55,25 @@
 
 }
 
-  h1 {
-    color: #333;
-    font-family: 'calibre-semibold-webfont', sans-serif;
-    font-size: 80px;
-    padding-top: 50px;
-  
+.title h1 {
+  color: #333;
+  font-family: 'Calibre', sans-serif;
+  font-size: 80px;
+  text-align: center;
+  margin: 0px;
+padding-bottom: 10px;
 
-  }
+}
 
+.title h2 {
+  font-size: 28px;
+  color: #333;
+  font-family: 'Calibre', sans-serif;
+  text-align: center;
+  margin: 0px;
+padding-bottom: 50px;
 
-  h2 {
-      color: #333;
-    font-family: 'Roboto-light', sans-serif;
-    font-size: 20px;
-      padding-top: 50px;
-      
-
-  }
+}
 
 
   .menu {
@@ -85,10 +86,11 @@
   }
 
 
-  .projects {
+  .cards {
     display: grid;
     width: 100%;
     margin: auto;
+    background-color: #B6EAD7;
     grid-template-columns: repeat(1fr);
     grid-template-rows: 50px 100px repeat(1fr) 50px;
     grid-template-areas:
@@ -112,7 +114,7 @@
 
   }
 
-  .projects{
+  .cards{
     width: 250px;
       height: 250px
       display: inline-block;
@@ -123,9 +125,9 @@
       justify-content: center;
   }
 
-  .projects:hover {
+  .cards:hover {
    opacity: 1;
-   background-color: hotpink;
+   background-color:  pink;
    
 
  
@@ -136,7 +138,8 @@
     grid-column: 1 / 5;
     grid-row: 5 / 6;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
+    border-top: 2px #333 solid;
     
  }
 
@@ -147,6 +150,40 @@
     font-family: 'Roboto-light', sans-serif;
     font-size: 20px;
 
-    
   
    }
+
+   .returnHome {
+     padding-bottom: 100px;
+     padding-top: 60px;
+   }
+
+   .returnHome a {
+    text-decoration: none;
+    color: #333;
+  }
+   .returnHome button {
+    background-color: #C7CEEA;
+    border: 3px solid #693f7e
+    padding: .5rem;
+    border-radius: 5px;
+    width: 150px;
+    text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  text-align: center;
+  padding: 10px;
+
+    }
+    
+    .returnHome button:hover {
+      background-color: #333;
+    
+    }
+
+    .returnHome a:hover {
+      color: white;
+    
+    }
+
+    
