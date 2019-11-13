@@ -1,0 +1,189 @@
+
+
+
+
+@font-face {
+  font-family: Calibre;
+  src: url(../fonts/calibre-medium-webfont.eot);
+  src: url(../fonts/calibre-medium-webfont.eot?#iefix) format('embedded-opentype'), url(../fonts/calibre-medium-webfont.woff) format('woff'), url(../fonts/calibre-medium-webfont.ttf) format('truetype'), url(../fonts/calibre-medium-webfont.svg#Calibre) format('svg');
+  font-weight: 500;
+  font-style: normal
+}
+@font-face {
+  font-family: Calibre;
+  src: url(../fonts/calibre-regular-webfont.eot);
+  src: url(../fonts/calibre-regular-webfont.eot?#iefix) format('embedded-opentype'), url(../fonts/calibre-regular-webfont.woff) format('woff'), url(../fonts/calibre-regular-webfont.ttf) format('truetype'), url(../fonts/calibre-regular-webfont.svg#calibre_regularregular) format('svg');
+  font-weight: 400;
+  font-style: normal
+}
+@font-face {
+  font-family: Calibre;
+  src: url(../fonts/calibre-semibold-webfont.eot);
+  src: url(../fonts/calibre-semibold-webfont.eot?#iefix) format('embedded-opentype'), url(../fonts/calibre-semibold-webfont.woff) format('woff'), url(../fonts/calibre-semibold-webfont.ttf) format('truetype'), url(../fonts/calibre-semibold-webfont.svg#calibresemibold) format('svg');
+  font-weight: 800;
+  font-style: normal
+}
+
+
+.container {
+  background-color: antiquewhite;
+  text-align: center;
+}
+
+.topNav { 
+  text-align: right;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  
+
+}
+
+.topNav a{
+  text-decoration:none; 
+  color: #333;
+  font-family: 'Roboto-light', sans-serif;
+  font-size: 20px;
+  padding: 10px;
+  
+
+}
+
+.topNav a:hover{
+  text-decoration:none; 
+  color: #D3D3D3;
+  font-family: 'Roboto-light', sans-serif;
+  font-size: 20px;
+  padding: 10px;
+  
+
+}
+
+.title h1 {
+  color: #333;
+  font-family: 'Calibre', sans-serif;
+  font-size: 80px;
+  text-align: center;
+  margin: 0px;
+padding-bottom: 10px;
+
+}
+
+.title h2 {
+  font-size: 28px;
+  color: #333;
+  font-family: 'Calibre', sans-serif;
+  text-align: center;
+  margin: 0px;
+padding-bottom: 50px;
+
+}
+
+
+  .menu {
+    grid-area: menu;
+
+  }
+
+  .title {
+    grid-area: title;
+  }
+
+
+  .cards {
+    display: grid;
+    width: 100%;
+    margin: auto;
+    background-color: #B6EAD7;
+    grid-template-columns: repeat(1fr);
+    grid-template-rows: 50px 100px repeat(1fr) 50px;
+    grid-template-areas:
+    "menu menu menu menu"
+    "title title title title"
+    " pjs pjs pjs pjs "
+    " pjs pjs pjs pjs"
+    " pjs pjs pjs pjs"
+    " pjs pjs pjs pjs"
+    "ft ft ft ft ";
+
+  }
+
+  .projectContainer {
+  grid-area: pjs;
+  display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      padding: 30px;
+      cursor:pointer;
+
+  }
+
+  .cards{
+    width: 250px;
+      display: inline-block;
+      border: 2px solid #333;
+      color: #000000;
+      padding: 30px;
+      margin: 10px;
+      justify-content: center;
+  }
+
+  .cards:hover {
+   opacity: 1;
+   background-color:  pink;
+  
+ 
+  }
+
+
+  footer { 
+    grid-column: 1 / 5;
+    grid-row: 5 / 6;
+    text-align: center;
+    padding: 10px;
+    border-top: 2px #333 solid;
+    
+ }
+
+ footer a {
+ 
+    text-decoration: none;
+    color: #333;
+    font-family: 'Roboto-light', sans-serif;
+    font-size: 20px;
+
+   }
+
+   .returnHome {
+     padding-bottom: 100px;
+     padding-top: 60px;
+   }
+
+   .returnHome a {
+    text-decoration: none;
+    color: #333;
+  }
+   .returnHome button {
+    background-color:  pink;
+    padding: .5rem;
+    border-radius: 5px;
+    width: 150px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 2px 2px 0 rgba(19, 25, 27, 0.1);
+
+    }
+    
+    .returnHome button:hover {
+      background-color: #333;
+    
+    }
+
+    .returnHome a:hover {
+      color: white;
+    
+    }
+
+    
