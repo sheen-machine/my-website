@@ -1,0 +1,18 @@
+
+     footer { 
+      border-top: 2px #333 solid;
+       grid-column: 1 / 6;
+       grid-row: 5 / 6;
+       text-align: center;
+       padding: 10px;
+       
+    }
+ 
+    footer a {
+    
+       text-decoration: none;
+       color: #333;
+       font-family: 'Roboto-light', sans-serif;
+       font-size: 20px;
+     
+      }
